@@ -6,6 +6,11 @@ function FuturisticLoader() {
     <div className="loader-overlay" role="status" aria-live="polite">
       <div className="loader-panel">
         <div className="loader-machine">
+          <span className="loader-halo halo-a" />
+          <span className="loader-halo halo-b" />
+          <span className="loader-node node-a" />
+          <span className="loader-node node-b" />
+          <span className="loader-node node-c" />
           <div className="loader-ring ring-outer" />
           <div className="loader-ring ring-middle" />
           <div className="loader-core">
@@ -16,8 +21,8 @@ function FuturisticLoader() {
             <span className="loader-bubble bubble-c" />
           </div>
         </div>
-        <p className="loader-title">AI Wash Matrix</p>
-        <p className="loader-copy">Optimizing spin + foam balance...</p>
+        <p className="loader-title">Neural Wash Loop</p>
+        <p className="loader-copy">Calibrating drum flow and fabric profile...</p>
         <div className="loader-progress">
           <span />
         </div>
